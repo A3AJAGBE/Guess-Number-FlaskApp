@@ -22,8 +22,8 @@ def hello_world():
                    '<img src="https://media.giphy.com/media/l4pLY0zySvluEvr0c/giphy.gif">'
         else:
             return '<h1> Correct guess, Well done </h1>' \
-                '<br/> <img src="https://media.giphy.com/media/MEdXzJwmTvjpw79Gig/giphy.gif">'
-    return render_template('index.html', number=random_number)
+                   '<br/> <img src="https://media.giphy.com/media/MEdXzJwmTvjpw79Gig/giphy.gif">'
+    return render_template('index.html')
 
 
 if __name__ == "__main__":
